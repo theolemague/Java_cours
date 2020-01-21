@@ -5,11 +5,11 @@
  */
 public class Etudiant {
 
-    ///identifiant unique de l'etudiant
+    //identifiant unique de l'etudiant
     private Integer numero; 
-    ///prenom
+    //prenom
     private String prenom; 
-    ///nom de famille
+    //nom de famille
     private String nom; 
 
     /**
