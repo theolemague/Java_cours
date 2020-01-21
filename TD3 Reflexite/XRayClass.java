@@ -37,15 +37,15 @@ public class XRayClass {
         fList = c.getDeclaredFields();
         return fList;
     }
-
+	// ? super T autorize toutes les class parents de T
     public <T> ArrayList<Class<? super T> >
         getClassesFromClass(Class<T> c) {
         ArrayList<Class<? super T> > cList = new ArrayList<Class<? super T> >();
         Class<? super T>  cTemp;
 
-        cTemp = c;
-        while ((cTemp =
-                cTemp.getSuperclass()) != null) {
+		cTemp = c;
+        while ((cTemp = cTemp.getSuperclass()) != null) {
+			// Add all parent 
             cList.add(cTemp);
         }
 
