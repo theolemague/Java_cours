@@ -3,7 +3,6 @@ import java.util.ArrayList;
 import java.util.Iterator;
 
 
-
 public class GroupeEtudiant{
 	
 	private ArrayList<Etudiant> listEtudiant = new ArrayList<Etudiant>();
