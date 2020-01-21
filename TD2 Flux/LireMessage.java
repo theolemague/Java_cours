@@ -29,10 +29,6 @@ public class LireMessage{
 			finally{
 				System.out.print("End");
 			}
-			
-			
-			
-
 		}
 	}
 }
